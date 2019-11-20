@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a33328f-b918-43c6-9fec-78908587a597">
+  <name>ПодсистемаПользователиБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема пользователи (БСП)</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1e3b1893-8d6a-46cc-9073-4376c4b37234"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f940a9d7-a5b2-44e8-b761-57fd0751170c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0a61c8c5-94ba-4bed-b16d-5ef7501e7733"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6c74c253-20a4-44b1-b28e-3ffc04c1480b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="455a43ce-561d-4a45-afa0-c8087e062cb8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5746b857-4878-4067-83fa-6af886d476d0"/>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.6</compatibilityMode>
+  <languages uuid="21379aef-9687-418e-8c97-6e583e118d2b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Пользователи</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебный</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
+  <commonCommands>CommonCommand.СменитьПароль</commonCommands>
+  <constants>Constant.НастройкиВходаПользователей</constants>
+  <commonForms>CommonForm.СменаПароля</commonForms>
+  <commonForms>CommonForm.НовыйПароль</commonForms>
+  <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
+  <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f27dcdf-0b12-480c-ae6f-adc99988ce63">
+  <producedTypes>
+    <selectionType typeId="4b34ca4d-9a81-4084-bffd-bb0f7faf845e" valueTypeId="ffc28afc-588c-4fdb-8b39-3e213136b507"/>
+    <listType typeId="678c6800-4c51-430b-8509-f6e348b3507f" valueTypeId="9dfb6e21-b275-44df-b56b-9a0b72d57ac7"/>
+    <managerType typeId="4236fad3-af44-413b-8740-e332c6ff2262" valueTypeId="6ed6ef61-5205-4c36-b987-a5716c787aa9"/>
+    <recordSetType typeId="a066fd71-7f54-41ac-a19c-b1645cdbee07" valueTypeId="5a1058a7-96cd-4be8-adbe-54ab56a4efba"/>
+    <recordKeyType typeId="a6f3d277-7dba-4605-b3ca-f12d3f8736fa" valueTypeId="ba3e462a-a68d-4873-9083-4ed771685276"/>
+    <recordType typeId="f162ec6c-53aa-47ae-971b-2b1110888d75" valueTypeId="eb1dc8f0-276c-43ec-9cf9-596884d1e051"/>
+    <recordManagerType typeId="ec01ce5f-dddf-470a-a07f-ca9ca0e615d8" valueTypeId="1ea62041-ea58-4487-8866-0ab57fc45762"/>
+  </producedTypes>
+  <name>СведенияОПользователях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о пользователях</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СведенияОПользователях.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СведенияОПользователях.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="18587dc4-bba1-4ac1-b59e-2564b6090caa">
+    <name>ПотребоватьСменуПароляПриВходе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребовать смену пароля при входе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Потребовать от пользователя
+сменить пароль при входе.
+
+Устанавливается в карточке пользователя.
+Сбрасывается при смене пароля при входе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b12ee9a5-339e-4be5-8bfc-26452652f49b">
+    <name>СрокДействияНеОграничен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия не ограничен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отменяет все ограничения по срокам действия.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="051c1238-1eba-499f-bbc8-773183167f6d">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок, начиная с которого, пользователю
+будет запрещен вход в программу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bbdd8c8b-7993-4256-bbd7-4c40159b5189">
+    <name>ПросрочкаРаботыВПрограммеДоЗапрещенияВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочка работы в программе до запрещения входа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок относительно последней активности пользователя,
+после которого вход в программу будет запрещен.
+
+Когда указан, используется вместо аналогичного параметра,
+указанного для всех пользователей (внешних пользователей).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="14286c35-80a3-4767-bd63-bd9993b8ac35">
+    <name>ДатаРазрешенияВходаВПрограмму</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата разрешения входа в программу</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последней установки флажка
+Вход в программу разрешен.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f35c34a3-0a7e-47bf-b49c-e3a3c96bcdcf">
+    <name>ДатаПоследнейАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней активности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последней активности
+пользователя в программе.
+
+Обновляется при входе и затем каждые 20 минут, если изменилась.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2c43e633-a237-4dee-a363-a44380d4cb91">
+    <name>ДатаАвтоматическогоЗапрещенияВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата автоматического запрещения входа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата автоматического запрещения входа в программу пользователю
+в связи с истечением срока действия или отсутствием работы в
+программе более установленного срока.
+
+Устанавливается при запрещении входа.
+Сбрасывается при разрешении входа и при входе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64733b11-7780-4898-a857-c7667b04c76a">
+    <name>ДатаНачалаИспользованияПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала использования пароля</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда пользователь начал использовать новый пароль.
+
+Устанавливается при входе, если пустая.
+Сбрасывается при смене пароля.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2849b789-52e2-4813-94c9-dbf90b8ee314">
+    <name>ИспользованныеПароли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использованные пароли</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хеши паролей, которые пользователь использовал ранее</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="30034b2e-57f2-4732-b358-f62510f0365a">
+    <name>ПоследнийИспользуемыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний используемый клиент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Программа, которая использовалась пользователем для работы в информационной базе в последнем сеансе работы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="63dff485-eac8-4ad1-8075-d77a2370a47f">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь или внешний пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f6e5f098-45ba-4ffa-ad0f-d0e4f9f0fbbf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bcfcc0f0-e7b5-4b42-9195-67f021927647">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

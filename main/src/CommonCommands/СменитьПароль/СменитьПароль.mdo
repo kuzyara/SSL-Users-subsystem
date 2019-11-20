@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d699d722-0615-4523-b6e7-3da721de8982">
+  <name>СменитьПароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сменить пароль</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>
